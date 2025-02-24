@@ -1,0 +1,42 @@
+.hexagon-transition {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    margin: 50px auto; 
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+    text-align: center;
+    line-height: 150px; 
+    color: white;
+    font-size: 14px;
+    transition: transform 0.5s ease, background-color 0.3s ease; 
+}
+
+.hexagon-transition:hover {
+    transform: scale(1.5) rotate(-1440deg); 
+    background-color: #2ecc71;
+}
+
+
+.hexagon-animation {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    margin: 50px auto; 
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+    text-align: center;
+    line-height: 150px; 
+    color: white;
+    font-size: 14px;
+    animation: zoomAndRotate 5s ease-in-out infinite; 
+}
+
+@keyframes zoomAndRotate {
+    0% {
+        transform: scale(1) rotate(0deg);
+        background-color: #3498db;
+    }
+    100% {
+        transform: scale(1.5) rotate(-1440deg);
+        background-color: #2ecc71;
+    }
+}

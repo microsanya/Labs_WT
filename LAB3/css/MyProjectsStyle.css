@@ -1,0 +1,37 @@
+body{
+
+   background-color:#000080
+
+}
+p {
+  color: white;
+  -webkit-text-stroke: 0.4px #008b00;
+  text-stroke: 0.4px #008b00;
+  text-align: center;
+}
+
+header {
+  color: white;
+  -webkit-text-stroke: 0.8px #008b00;
+  text-stroke: 0.8px #008b00;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  -webkit-text-stroke: 0.5px #008b00;
+  text-stroke: 0.5px #008b00;
+  text-align: center;
+}
+
+ul {
+  color: white;
+  -webkit-text-stroke: 0.4px #008b00;
+  text-stroke: 0.4px #008b00;
+}
+
+а {
+  color: white;
+  -webkit-text-stroke: 0.4px #008b00;
+  text-stroke: 0.4px #008b00;
+}
